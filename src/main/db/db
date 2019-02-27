@@ -1,0 +1,171 @@
+DELETE FROM book;
+ALTER TABLE book AUTO_INCREMENT = 1000;
+
+DELETE FROM category;
+ALTER TABLE category AUTO_INCREMENT = 1000;
+
+INSERT INTO `category` (`name`) VALUES ('biographical'),
+                                       ('business'),
+                                       ('comics'),
+                                       ('cookbooks'),
+                                       ('fantasy'),
+                                       ('fiction'),
+                                       ('history'),
+                                       ('nonfiction'),
+                                       ('romance'),
+                                       ('scifi');
+#biographical
+INSERT INTO `book` (title, author, price, is_public, category_id)
+VALUES ('The Restless Wave', 'John McCain', 1889, TRUE, 1000);
+
+INSERT INTO `book` (title, author, price, is_public, category_id)
+VALUES ('Barracoon', 'Zora Neale Hurston', 1589, FALSE, 1000);
+
+INSERT INTO `book` (title, author, price, is_public, category_id)
+VALUES ('In Pieces', 'Sally Field', 2030, TRUE, 1000);
+
+INSERT INTO `book` (title, author, price, is_public, category_id)
+VALUES ('Becoming', 'Michelle Obama', 2275, TRUE, 1000);
+
+#business
+INSERT INTO `book` (title, author, price, is_public, category_id)
+VALUES ('The 48 Laws of Power', 'Robert Greene', 1670, TRUE, 1001);
+
+INSERT INTO `book` (title, author, price, is_public, category_id)
+VALUES ('The 7 Habits of Highly Effective People', 'Stephen R. Covey', 1350, FALSE, 1001);
+
+INSERT INTO `book` (title, author, price, is_public, category_id)
+VALUES ('The Five Dysfunctions of a Team', ' Patrick M. Lencioni', 1871, TRUE, 1001);
+
+INSERT INTO `book` (title, author, price, is_public, category_id)
+VALUES ('The First 90 Days', 'Michael D. Watkins', 2250, FALSE, 1001);
+
+#comics
+INSERT INTO `book` (title, author, price, is_public, category_id)
+VALUES ('Batman', 'Greg Capullo', 2224, FALSE, 1002);
+
+INSERT INTO `book` (title, author, price, is_public, category_id)
+VALUES ('The Walking Dead', 'Stefano Gaudiano ', 1699, TRUE, 1002);
+
+INSERT INTO `book` (title, author, price, is_public, category_id)
+VALUES ('Action Comics', 'Various ', 2668, TRUE, 1002);
+
+INSERT INTO `book` (title, author, price, is_public, category_id)
+VALUES ('Saga Volume 8', 'Fiona Staples', 1180, TRUE, 1002);
+
+#cookbooks
+INSERT INTO `book` (title, author, price, is_public, category_id)
+VALUES ('Simply Keto', 'Suzanne Ryan', 2542, TRUE, 1003);
+
+INSERT INTO `book` (title, author, price, is_public, category_id)
+VALUES ('Martha Stewart''s Pressure Cooker', 'Martha Stewart', 1950, FALSE, 1003);
+
+INSERT INTO `book` (title, author, price, is_public, category_id)
+VALUES ('The Complete Ketogenic Diet for Beginners', 'Amy Ramos', 751, FALSE, 1003);
+
+INSERT INTO `book` (title, author, price, is_public, category_id)
+VALUES ('Run Fast. Cook Fast.', 'Shalane Flanagan', 1639, TRUE, 1003);
+
+#fantasy
+INSERT INTO `book` (title, author, price, is_public, category_id)
+VALUES ('Leopard''s Run', 'Christine Feehan', 799, TRUE, 1004);
+
+INSERT INTO `book` (title, author, price, is_public, category_id)
+VALUES ('Final Shadows', 'Kelly Hooper', 999, TRUE, 1004);
+
+INSERT INTO `book` (title, author, price, is_public, category_id)
+VALUES ('Archangel''s Prophecy', 'Nalini Singh', 799, FALSE, 1004);
+
+INSERT INTO `book` (title, author, price, is_public, category_id)
+VALUES ('Curious Weather', 'Holly Messinger', 2599, TRUE, 1004);
+
+
+#fiction
+
+INSERT INTO `book` (title, author, price, is_public, category_id)
+VALUES ('The Next Person You Meet in Heaven', 'Mitch Albom', 1511, TRUE, 1005);
+
+INSERT INTO `book` (title, author, price, is_public, category_id)
+VALUES ('Ambush', 'James Patterson', 1764, FALSE, 1005);
+
+INSERT INTO `book` (title, author, price, is_public, category_id)
+VALUES ('Holy Ghost', 'John Sanford', 2088, TRUE, 1005);
+
+INSERT INTO `book` (title, author, price, is_public, category_id)
+VALUES ('The Witch Elm', 'Tana French', 1876, TRUE, 1005);
+
+INSERT INTO `book` (title, author, price, is_public, category_id)
+VALUES ('Winter in Paradise', 'Elin Hilderbrand', 2044, TRUE, 1005);
+
+INSERT INTO `book` (title, author, price, is_public, category_id)
+VALUES ('A Spark of Light', 'Jodi Picoult', 1826, TRUE, 1005);
+
+INSERT INTO `book` (title, author, price, is_public, category_id)
+VALUES ('Alaskan Holiday', 'Debbie Macomber', 1259, TRUE, 1005);
+
+#history
+
+INSERT INTO `book` (title, author, price, is_public, category_id)
+VALUES ('The Spy and the Traitor', 'Ben Macintyre', 2352, TRUE, 1006);
+
+INSERT INTO `book` (title, author, price, is_public, category_id)
+VALUES ('Every Man a King', 'Chris Stirewalt', 2352, FALSE, 1006);
+
+INSERT INTO `book` (title, author, price, is_public, category_id)
+VALUES ('Dam Busters', 'Ted Barris', 2799, TRUE, 1006);
+
+INSERT INTO `book` (title, author, price, is_public, category_id)
+VALUES ('Leadership', 'Doris Kearns Goodwin', 1889, FALSE, 1006);
+
+INSERT INTO `book` (title, author, price, is_public, category_id)
+VALUES ('Killing the SS', 'Bill O''Reilly', 2250, FALSE, 1006);
+
+#nonfiction
+
+INSERT INTO `book` (title, author, price, is_public, category_id)
+VALUES ('Dare to Lead', 'Brene Brown', 2099, FALSE, 1007);
+
+INSERT INTO `book` (title, author, price, is_public, category_id)
+VALUES ('My Squirrel Days', 'Ellie Kemper ', 2600, TRUE, 1007);
+
+INSERT INTO `book` (title, author, price, is_public, category_id)
+VALUES ('Presidents of War', 'Michael Beschloss', 2555, TRUE, 1007);
+
+INSERT INTO `book` (title, author, price, is_public, category_id)
+VALUES ('On Desperate Ground', 'Hampton Sides', 3000, TRUE, 1007);
+
+INSERT INTO `book` (title, author, price, is_public, category_id)
+VALUES ('The Greatest Love Story Ever Told', 'Nick Offerman', 1876, TRUE, 1007);
+
+INSERT INTO `book` (title, author, price, is_public, category_id)
+VALUES ('Thirst', 'Scott Harrison', 2267, TRUE, 1007);
+
+#romance
+
+INSERT INTO `book` (title, author, price, is_public, category_id)
+VALUES ('The Kiss Quotient', 'Helen Hoang', 1320, TRUE, 1008);
+
+INSERT INTO `book` (title, author, price, is_public, category_id)
+VALUES ('Cottage by the Sea', 'Debbie Macomber', 2268, FALSE, 1008);
+
+INSERT INTO `book` (title, author, price, is_public, category_id)
+VALUES ('I Almost Forgot about You', 'Terry McMillan', 999, FALSE, 1008);
+
+INSERT INTO `book` (title, author, price, is_public, category_id)
+VALUES ('The Cottages on Silver Beach', 'Raeanne Thayne', 671, TRUE, 1008);
+
+#scifi
+
+INSERT INTO `book` (title, author, price, is_public, category_id)
+VALUES ('Through Fiery Trials', 'David Weber', 2899, TRUE, 1009);
+
+INSERT INTO `book` (title, author, price, is_public, category_id)
+VALUES ('Star Trek Prometheus - In the Heart of Chaos', 'Christian Humberg, Bernd Perplies', 799, TRUE, 1009);
+
+INSERT INTO `book` (title, author, price, is_public, category_id)
+VALUES ('War of Honor', 'David Weber', 3600, FALSE, 1009);
+
+INSERT INTO `book` (title, author, price, is_public, category_id)
+VALUES ('Cross Breed', 'Lora Leigh ', 2184, TRUE, 1009);
+
+

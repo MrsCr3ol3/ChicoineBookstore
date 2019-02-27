@@ -1,0 +1,92 @@
+.confirmationBox {
+    justify-content: center;
+    margin: 25px auto;
+    text-align: center;
+    vertical-align: middle;
+    background: #fff;
+    border: 2px solid #578aa4;
+    padding: 11px;
+    width: calc(100% - 50px);
+    max-width: 900px
+}
+
+.confirmHeader {
+    width: 100%;
+    text-align: center;
+    margin-top: 14px;
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: #000;
+    text-shadow: 0 0 1px #1e90ff;
+    max-height: 30px
+}
+
+.confirmTable {
+    margin-left: auto;
+    margin-right: auto;
+    width: calc(100% - 50px);
+    border-spacing: 15px;
+    border-collapse: collapse;
+    background: #fff;
+    border: 2px solid #578aa4;
+    padding: 10px 50px
+}
+
+.confirmTable tr {
+    border: 1px solid #578aa4;
+    padding: 10px
+}
+
+.confirmTable tr:nth-child(even) {
+    background-color: #eaf8ff
+}
+
+.confirmTable td {
+    padding: 10px
+}
+
+.confirmPrice,.confirmTableHeader {
+    color: #000;
+    font-family: sans-serif;
+    font-weight: 700;
+    text-shadow: 0 0 1px #1e90ff
+}
+
+.confirmTableHeader {
+    padding-left: 10px;
+    text-align: left;
+    margin-top: 14px;
+    max-height: 30px;
+    font-size: 22px
+}
+
+.confirmPrice {
+    width: 100%;
+    font-size: 18px;
+    justify-content: end;
+    padding-right: 80px
+}
+
+.totalBox {
+    width: calc(100% - 25px);
+    max-width: 900px
+}
+
+.checkoutBox {
+    width: 500px;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
+    padding: 11px
+}
+
+.customerInfoBox {
+    margin: auto;
+    text-align: left;
+    background: #eaf8ff;
+    border-collapse: separate;
+    border-spacing: 10px;
+    border: 2px solid #578aa4
+}

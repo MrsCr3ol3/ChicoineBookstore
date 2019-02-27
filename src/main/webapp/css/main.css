@@ -1,0 +1,66 @@
+.header {
+    font-size: 20px
+}
+
+body,main {
+    margin-bottom: 85px;
+    height: 100%
+}
+
+body {
+    background-image: url(../images/site/bookbackground.png);
+    font: 1em Verdana,Tahoma,sans-serif;
+    color: #000
+}
+
+main {
+    margin-top: 136px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column
+}
+
+.header,.subHeader {
+    min-width: 900px;
+    text-align: center;
+    color: #708090
+}
+
+.header {
+    margin-top: 16px;
+    padding: 5px;
+    font-weight: 700;
+    font-family: sans-serif
+}
+
+.subHeader {
+    font-family: Arial;
+    font-size: 14px
+}
+
+a,a:visited,input[type=submit] {
+    color: #708090
+}
+
+a:active,a:hover,input[type=submit]:hover,ul.buttons a:hover {
+    color: #578aa4
+}
+
+.wordwrap {
+    white-space: pre-wrap;
+    word-wrap: break-word
+}
+
+.contentBox {
+    justify-content: space-between;
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
+    background: #fff;
+    border: 2px solid #578aa4;
+    padding: 11px
+}

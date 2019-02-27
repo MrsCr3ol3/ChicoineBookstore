@@ -1,0 +1,28 @@
+footer {
+    background-image: url(../images/site/footer_bg.png);
+    height: 85px;
+    width: 100%;
+    color: #000;
+    position: fixed;
+    bottom: 0;
+    max-height: 85px
+}
+
+.contactBtn,.directionsBtn,.facebookBtn {
+    cursor: pointer;
+    background-size: contain;
+    display: inline-block;
+    vertical-align: bottom
+}
+
+.footerTable {
+    max-height: 85px;
+    text-align: center;
+    vertical-align: middle;
+    border-collapse: separate;
+    border-spacing: 10px
+}
+
+.footerIcon {
+    bottom: 0
+}

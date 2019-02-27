@@ -1,0 +1,164 @@
+.catHeader {
+    width: 100%;
+    text-align: center;
+    margin-top: 14px;
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: #000;
+    text-shadow: 0 0 1px #1e90ff;
+    max-height: 30px
+}
+
+.categoryLinks {
+    margin-left: 10px;
+    width: 96%;
+    border-spacing: 3px;
+    border-collapse: separate
+}
+
+.categoryButton:hover {
+    background: #578aa4
+}
+
+.categoryButton a,.categoryButtonSelected a {
+    color: #fff
+}
+
+.categoryButton,.categoryButtonSelected {
+    cursor: pointer;
+    overflow: auto;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 700;
+    width: 10%;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 10px;
+    border: solid #000 1px;
+    overflow-x: hidden;
+    color: #fff;
+    min-width: 70px;
+    max-width: 90px;
+    margin: 2px
+}
+
+.categoryButton {
+    background-color: #a4d7f1
+}
+
+.categoryButtonSelected {
+    background: #578aa4
+}
+
+.catButtonPress {
+    color: #708090;
+    background-color: rgba(175,229,255,.44)
+}
+
+.catalogItem {
+    padding: 3px;
+    margin: 2px;
+    word-wrap: break-word;
+    display: inline-block;
+    font-family: Verdana;
+    font-size: 10px;
+    color: #708090;
+    text-align: left;
+    border: 0;
+    white-space: nowrap;
+    max-width: 150px;
+    min-width: 150px;
+    vertical-align: top;
+    justify-content: center
+}
+
+.flexContainerTitle {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
+    height: 30px;
+    position: relative
+}
+
+.flexContainer,.flexContainerButtons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: column;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -ms-flex-line-pack: end;
+    align-content: flex-end;
+    position: relative
+}
+
+.flexContainerButtons {
+    top: 25px
+}
+
+.flexContainer {
+    top: 5px;
+    vertical-align: top;
+    padding-left: 15px;
+    max-width: calc(100% - 30px)
+}
+
+.title {
+    color: #708090;
+    font-size: 16px
+}
+
+.author {
+    color: #000;
+    font-size: 14px
+}
+
+.price {
+    color: #00f;
+    font-size: 16px
+}
+
+section {
+    width: 100%
+}
+
+.bookImg {
+    padding: 1px;
+    margin-bottom: 5px;
+    border: 1px solid #000;
+    min-height: 200px;
+    max-height: 200px;
+    width: auto
+}
+
+.bookActions {
+    display: inline-block
+}
+
+.infoBox {
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
+    background: #fff;
+    border: 2px solid #578aa4;
+    padding: 11px
+}

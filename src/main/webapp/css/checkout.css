@@ -1,0 +1,35 @@
+.errorText {
+    background: #f08080;
+    border: 1px solid #000
+}
+
+.warningText {
+    background: #ffffe0;
+    border: 1px solid #000
+}
+
+.errorText,.total,.warningText {
+    padding: 1px;
+    width: 100%;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #000;
+    text-shadow: 0 0 1px #1e90ff
+}
+
+.checkoutSection {
+    width: 90%;
+    margin: auto
+}
+
+label.error {
+    float: none;
+    color: red;
+    font-size: 14px;
+    padding-left: .5em;
+    vertical-align: top;
+    display: block
+}

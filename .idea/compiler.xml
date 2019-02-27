@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="EvanBookstoreMvvm_main" target="1.8" />
+      <module name="EvanBookstoreMvvm_test" target="1.8" />
+      <module name="EvanBookstoreSession_main" target="1.8" />
+      <module name="EvanBookstoreSession_test" target="1.8" />
+      <module name="EvanBookstoreTransact_main" target="1.8" />
+      <module name="EvanBookstoreTransact_test" target="1.8" />
+      <module name="EvanBookstoreValidate_main" target="1.8" />
+      <module name="EvanBookstoreValidate_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

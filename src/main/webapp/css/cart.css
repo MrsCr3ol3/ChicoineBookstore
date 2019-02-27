@@ -1,0 +1,92 @@
+.cartTable {
+    max-width: 900px;
+    width: calc(100% - 150px);
+    margin: 25px auto;
+    border-spacing: 15px;
+    border-collapse: collapse;
+    background: #fff;
+    border: 2px solid #578aa4;
+    padding: 10px 50px
+}
+
+.cartTable tr {
+    border: 1px solid #578aa4;
+    padding: 10px
+}
+
+.cartTable tr:nth-child(even) {
+    background-color: #eaf8ff
+}
+
+.cartTable td,.itemsList {
+    padding: 10px
+}
+
+.itemsList {
+    width: 100%;
+    background: #fff;
+    border: 2px solid #578aa4;
+    margin: 10px
+}
+
+.actionTable {
+    width: calc(100% - 100px);
+    justify-content: center;
+    margin: 25px;
+    padding: 25px
+}
+
+.cartBookImg {
+    padding: 1px;
+    border: 1px solid #021a40;
+    min-height: 80px;
+    max-height: 80px;
+    width: auto
+}
+
+.cartPrice {
+    color: #5a7f9a;
+    font-size: 20px;
+    font-weight: 700
+}
+
+.quantity {
+    display: table-cell;
+    font-size: 20px;
+    padding: 2px;
+    height: 100%;
+    background: #fff
+}
+
+.cartAddSubtractButton {
+    background: #fff;
+    border: 2px solid #a4d7f1;
+    margin: 2px;
+    min-width: 30px;
+    max-width: 30px;
+    cursor: pointer;
+    text-align: center;
+    vertical-align: middle
+}
+
+.cartTableHeader {
+    padding-left: 10px;
+    text-align: left;
+    margin-top: 14px;
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: #000;
+    text-shadow: 0 0 1px #1e90ff;
+    max-height: 30px
+}
+
+.bookCartItem {
+    background: #fff;
+    width: 100%
+}
+
+.bookCartItem td {
+    margin: 0;
+    text-align: left
+}
